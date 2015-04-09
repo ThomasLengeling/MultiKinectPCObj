@@ -1,0 +1,61 @@
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Blocks">
+      <UniqueIdentifier>{646526CF-F48B-4CFF-A912-617AF1B2A978}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\MSKinect">
+      <UniqueIdentifier>{C1810DBA-00CA-4C82-A4F0-4826D2D0EF47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\MSKinect\src">
+      <UniqueIdentifier>{CD17BFCE-2CC4-4F18-8303-05A8B738B0B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OpenCV">
+      <UniqueIdentifier>{F26576CD-0581-4521-BD5C-A348FC2C2792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Blocks\OpenCV\include">
+      <UniqueIdentifier>{265F587C-724F-42F8-AA62-24907EE4B6C8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\MultiKinectPCObjApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MultiKinectPCObjApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cinder_0.8.6_vc2013\blocks\MsKinect\src\Kinect.h">
+      <Filter>Blocks\MSKinect\src</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\..\cinder_0.8.6_vc2013\blocks\MsKinect\src\Kinect.cpp">
+      <Filter>Blocks\MSKinect\src</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\..\cinder_0.8.6_vc2013\blocks\OpenCV\include\CinderOpenCV.h">
+      <Filter>Blocks\OpenCV\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
